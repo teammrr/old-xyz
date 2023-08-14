@@ -1,0 +1,19 @@
+{
+  "name": "teammer.xyz",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teammrr/xyz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teammrr/xyz/issues"
+  },
+  "homepage": "https://github.com/teammrr/xyz#readme"
+}
