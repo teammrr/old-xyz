@@ -8,10 +8,11 @@ body{
     justify-content: space-between;
     min-height: 100vh;
 }
-#soon{
+#title{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     flex-grow: 1;
 }
 #top{
