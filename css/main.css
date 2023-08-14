@@ -5,15 +5,19 @@ body{
 }
 #soon{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    min-height: 100vh;
 }
 #top{
     color: #f2f2f2;
+    font-weight: 200;
 }
-#bottom{
-    color:#1089ff;
+#name{
+    font-weight: bold;
+    color: #1089ff;
 }
 #developedby{
     justify-content: center;
