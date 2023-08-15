@@ -7,19 +7,20 @@ body{
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+    
 }
 #title{
     display: flex;
     align-items: center;
-    justify-content: center;
     text-align: center;
-    flex-grow: 1;
+    justify-content: center;
+    height: 100%;
+    margin: auto;
+    color: #f2f2f2;
+    padding: 6px;
 }
 #top{
-    color: #f2f2f2;
     font-weight: 200;
-    padding: 6px;
-    text-align: center;
 }
 #name{
     font-weight: bold;
