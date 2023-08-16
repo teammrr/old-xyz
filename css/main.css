@@ -15,8 +15,9 @@ body{
     text-align: center;
     justify-content: center;
     margin: auto;
+    height: 100%;
     color: #f2f2f2;
-    padding: 6px;
+    padding: 10px;
 }
 #top{
     font-weight: 200;
