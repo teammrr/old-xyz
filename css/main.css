@@ -10,11 +10,10 @@ body{
     
 }
 #title{
-    display: flex;
+    display: inline-block;
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: 100%;
     margin: auto;
     color: #f2f2f2;
     padding: 6px;
@@ -29,6 +28,11 @@ body{
 #developedby{
     text-align: center;
     padding: 20px;
+}
+.social{
+    float: left;
+    margin: 20px;
+    padding: 6x;
 }
 p{
     color: #5c636e;
