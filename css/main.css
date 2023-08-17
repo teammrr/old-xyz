@@ -7,6 +7,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+
 }
 #title{
     display: inline-block;
@@ -18,14 +19,16 @@ body{
     margin: auto;
     color: #f2f2f2;
     padding: 10px;
+    
 
 }
 #title .social{
-    float: left;
-    margin: 20px;
-    padding: 6x;
+    border-bottom: .5px solid grey;
+    border-radius: 10%;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
     color: #5c636e;
-    border-radius: 0.75em;
     transition: color 0.2s ease-in;
 }
 #title .social:hover{
@@ -42,6 +45,7 @@ body{
 #developedby{
     text-align: center;
     padding: 20px;
+    
 }
 
 #developedby .madeby {
