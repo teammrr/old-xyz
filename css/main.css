@@ -23,8 +23,9 @@ body{
 
 }
 #title .social{
-    border-bottom: .5px solid grey;
-    border-radius: 10%;
+
+    padding: 5px 10px;
+    border-bottom: .5px solid grey;    border-radius: 20%;
     margin: 5px;
     justify-content: center;
     align-items: center;
