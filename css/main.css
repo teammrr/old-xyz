@@ -7,7 +7,11 @@ body{
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-
+}
+@media (max-width: 400px){
+    body{
+        
+    }
 }
 #title{
     display: inline-block;
@@ -19,8 +23,6 @@ body{
     margin: auto;
     color: #f2f2f2;
     padding: 10px;
-    
-
 }
 #title .social{
     padding: 5px 10px;
@@ -55,9 +57,17 @@ body{
 #developedby .madeby {
     color: #5c636e;      
 }
+
 #developedby .amadeby{
     color: #eeeeee;
     font-weight: bold;
+}
+#developedby .new{
+    color: #5c636e;
+    transition: color 0.2s ease-in;
+}
+#developedby .new:hover{
+    color: white;
 }
 
 a{
